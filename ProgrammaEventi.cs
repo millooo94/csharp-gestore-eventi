@@ -51,16 +51,6 @@ namespace csharp_gestore_eventi
         }
         public string RiepilogoProgrammaEventi()
         {
-            StringBuilder listaEventi = new StringBuilder();
-
-            foreach (Evento evento in Eventi)
-            {
-                listaEventi.AppendLine($"{evento.Data} - {evento.Titolo}");
-            }
-            return $"{Titolo}:{Environment.NewLine}{listaEventi}";
-        }
-        public string RiepilogoProgrammaEventi2()
-        {
             string listaEventi = "";
 
             foreach (Evento evento in Eventi)
