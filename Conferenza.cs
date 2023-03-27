@@ -24,7 +24,7 @@ namespace csharp_gestore_eventi
 
         public override string ToString()
         {
-            return $"        {Data:dd/MM/yyyy} - {Titolo} - {Relatore} - {Prezzo}euro";
+            return $"        {Data:dd/MM/yyyy} - {Titolo} - {Relatore} - {Prezzo} euro";
         }
 
     }
